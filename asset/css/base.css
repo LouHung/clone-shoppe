@@ -74,7 +74,8 @@ html{
     background: none;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    line-height: 1.6rem
 }
 .btn.btn--normal:hover{
     background-color:rgba(0, 0, 0, 0.05)
