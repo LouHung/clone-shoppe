@@ -21,13 +21,13 @@
                     <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                         vào cửa hàng trên ứng dụng
                         <div class="header__qr">
-                            <img src="../shoppe/asset/img/qr.png" alt="QR code" class="header__qr-img">
+                            <img src="../clone-shoppe/asset/img/qr.png" alt="QR code" class="header__qr-img">
                             <div class="header__qr-apps">
                                <a href="" class="header__qr-link">
-                                   <img src="../shoppe/asset/img/apple-tag.png" alt="app store" class="header__qr-download-img">
+                                   <img src="../clone-shoppe/asset/img/apple-tag.png" alt="app store" class="header__qr-download-img">
                                </a>
                                <a href="" class="header__qr-link">
-                                   <img src="../shoppe/asset/img/gg-tag.png" alt="google play" class="header__qr-download-img">
+                                   <img src="../clone-shoppe/asset/img/gg-tag.png" alt="google play" class="header__qr-download-img">
                                </a>
                                
                             </div>
@@ -46,7 +46,7 @@
                 <ul class="header__navbar-list">
                     <li class="header__navbar-item header__navbar-item--has-notify">
                         <a href="" class="header__navbar-item-link">
-                            <i class="header__navbar-icon fas fa-bell"></i>
+                            <i class="header__navbar-icon far fa-bell"></i>
                             Thông báo
                         </a>
                         <div class="header__notify">
@@ -97,8 +97,26 @@
                         </a>
                         
                     </li>
-                    <li class="header__navbar-item header__navbar-item--strong">Đăng kí</li>
-                    <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    <!-- <li class="header__navbar-item header__navbar-item--strong">Đăng kí</li>
+                    <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                      <li class="header__navbar-item header__navbar-user">
+                          <img src="../clone-shoppe/asset/img/avata.jpeg" alt="" class="header__navbar-user-img">
+                          <span class="header__navbar-user-name">Lou Hung</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                      </li>  
                 </ul>
             </nav>
             <!-- header with search -->
@@ -168,9 +186,11 @@
                                     <div class="header__cart-item-info">
                                         <div class="header__cart-item-head">
                                             <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
-                                            <span class="header__cart-item-price">2.000.000đ</span>
-                                            <span class="header__cart-item-multifly">x</span>
-                                            <span class="header__cart-item-qnt">2</span>
+                                           <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">2.000.000đ</span>
+                                                <span class="header__cart-item-multifly">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                           </div>
                                         </div>
                                         <div class="header__cart-item-body">
                                             <span class="header__cart-item-description">
@@ -182,11 +202,55 @@
                                         </div>
                                     </div>
                                 </li>
+
+                                <li class="header__cart-item">
+                                    <img src="../clone-shoppe/asset/img/combo-3c-sữa-rửa-mặt.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Combo 3 sữa rửa mặt dưỡng da Mini</h5>
+                                           <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">290.000đ</span>
+                                                <span class="header__cart-item-multifly">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                           </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại: Bạc
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                                
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="../clone-shoppe/asset/img/tinh-chat-vang-24k-ohui.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Tinh chất vàng 24k Ohui the First Geniture Ampoule</h5>
+                                           <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">390.000đ</span>
+                                                <span class="header__cart-item-multifly">x</span>
+                                                <span class="header__cart-item-qnt">3</span>
+                                           </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại: Bạc
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                                
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--  -->
                             </ul>
 
-                            <button class="btn btn--primary">
+                            <a href="#" class="header__cart-view-cart btn btn--primary">
                                 Xem giỏ hàng
-                            </button>
+                            </a>
                         </div>
                     
                     </div>
