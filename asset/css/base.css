@@ -6,7 +6,8 @@
     --border-color:#dbdbdb;
     --navbar-height: 34px;
     --header-height: 120px;
-    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --star-gold-color: #ffce3e;
 }
 
 *{
@@ -170,7 +171,8 @@ html{
     background-color: var(--white-color);
     padding: 8px 16px;
     list-style: none;
-    display: none
+    display: none;
+    z-index: 1;
 }
 .select-input__link{
     font-size: 1.4rem;
